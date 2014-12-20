@@ -4,8 +4,8 @@ DTableApplication
 Enhanced Application interface from using DTable
 
 ### Configuration
-key | explaination
-===   ============
+key | explaination 
+--- | --- 
 table_id | the table id without #
 table_implementation | the full implementation object json from [https://datatables.net/examples/basic_init/multi_col_sort.html]
 _domain | default with the current domain on the URL bar
