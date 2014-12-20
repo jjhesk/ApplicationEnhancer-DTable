@@ -14,19 +14,22 @@ _interaction |  default will support click tap and touch
 ### Example
 ```javascript
 
-var table_app  = new DApp(
-{ processing: true,
-                        "order": [ 1, 'desc' ],
-                        ajax: "",
-                        columns: [
-                            { data: "transid"},
-                            { data: "time"},
-                            { data: "count"},
-                            { data: "ref_code"}
-                        ],
-                        "dom": '<"back_to_reg_log"><"feature_button"><"datepicker">lfrtip',
-                        "initComplete": null
-    });
 
+var table_app = new DApp({
+    table_id: "my_table",
+    table_implementation: {
+        processing: true,
+        "order": [ 1, 'desc' ],
+        ajax: "",
+        columns: [
+            { data: "transid"},
+            { data: "time"},
+            { data: "count"},
+            { data: "ref_code"}
+        ],
+        "dom": '<"back_to_reg_log"><"feature_button"><"datepicker">lfrtip',
+        "initComplete": null
+    }
 
+});
 ```
