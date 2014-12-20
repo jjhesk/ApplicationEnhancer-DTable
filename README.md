@@ -1,7 +1,8 @@
 ApplicationEnhancer-DTable
 =================
 
-Enhanced Application interface from using DTable
+Enhanced Application interface from using DTable from https://datatables.net/examples/
+
 
 ### Configuration
 key | explaination 
