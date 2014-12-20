@@ -1,4 +1,4 @@
-DTableApplication
+ApplicationEnhancer-DTable
 =================
 
 Enhanced Application interface from using DTable
