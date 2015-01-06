@@ -37,3 +37,5 @@ var table_app = new DApp({
 
 });
 ```
+
+Designed and Developed by Heske
