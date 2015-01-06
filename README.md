@@ -1,7 +1,10 @@
 ApplicationEnhancer-DTable
 =================
+### Why
+This design is to remove some complications coming from using Dtable
 
-Enhanced Application interface from using DTable from https://datatables.net/examples/
+###Goal
+Deliver the enhanced application interface from using [DTable](https://datatables.net/examples/)
 
 
 ### Configuration
